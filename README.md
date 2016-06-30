@@ -1,6 +1,9 @@
 ## Description
 Login/Register Demo
 
+## How to start
+* Run `npm run start`
+
 ## Done
 * Login or register by email/password or via Facebook account
 * Edit registered account information
