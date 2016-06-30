@@ -8,7 +8,6 @@ const MONGO_HOST = util.getEnv('MONGO_HOST');
 const MONGO_PORT = util.getEnv('MONGO_PORT');
 const MONGO_DB = util.getEnv('MONGO_DB');
 
-
 mongoose.connect(`mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}`);
 
 module.exports = {
